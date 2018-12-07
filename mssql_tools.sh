@@ -15,3 +15,6 @@ sudo apt-get install mssql-tools unixodbc-dev
 #проверить
 #echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc
 #source ~/.bashrc
+
+#если возникает ошибка terminate called after throwing an instance of 'std::runtime_error'
+#apt-get install -y locales && echo "en_US.UTF-8 UTF-8" > /etc/locale.gen && locale-gen
